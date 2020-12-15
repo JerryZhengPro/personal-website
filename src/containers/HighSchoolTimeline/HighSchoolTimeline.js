@@ -144,9 +144,20 @@ class HighSchoolTimeline extends Component {
                 </TimelineItem>
                 <TimelineItem
                     key="012"
+                    dateText="January 2019"
+                    dateInnerStyle={{background: "#0097fe"}}
+                    style={{color: "#0097fe", paddingTop: "90px"}}
+                >
+                    <h3>City of Surrey Special Events Volunteer</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Passed orientation and officially became a City of Surrey volunteer</li>
+                    </ul>
+                </TimelineItem>
+                <TimelineItem
+                    key="013"
                     dateText="February 2019"
                     dateInnerStyle={{background: "#0097fe"}}
-                    style={{color: "#0097fe", paddingTop: "180px"}}
+                    style={{color: "#0097fe", paddingTop: "90px"}}
                 >
                     <h3>Math Challengers Fraser Valley Regional Competition</h3>
                     <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
@@ -165,7 +176,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="013"
+                    key="014"
                     dateText="March 2019"
                     dateInnerStyle={{background: "#0097fe"}}
                     style={{color: "#0097fe", paddingTop: "90px"}}
@@ -181,7 +192,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="014"
+                    key="015"
                     dateText="April 2019"
                     dateInnerStyle={{background: "#0097fe"}}
                     style={{color: "#0097fe", paddingTop: "90px"}}
@@ -189,7 +200,7 @@ class HighSchoolTimeline extends Component {
                     <h3>Accepted to SIMUW 2019</h3>
                 </TimelineItem>
                 <TimelineItem
-                    key="015"
+                    key="016"
                     dateText="May 2019"
                     dateInnerStyle={{background: "#0097fe"}}
                     style={{color: "#0097fe", paddingTop: "90px"}}
@@ -201,7 +212,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="016"
+                    key="017"
                     dateText="June 2019"
                     dateInnerStyle={{background: "#0097fe"}}
                     style={{color: "#0097fe", paddingTop: "90px"}}
@@ -221,7 +232,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="017"
+                    key="018"
                     dateText="September 2019"
                     dateInnerStyle={{background: "red"}}
                     style={{color: "red", paddingTop: "270px"}}
@@ -229,7 +240,7 @@ class HighSchoolTimeline extends Component {
                     <h3>Beginning of Grade 10</h3>
                 </TimelineItem>
                 <TimelineItem
-                    key="018"
+                    key="019"
                     dateText="November 2019"
                     dateInnerStyle={{background: "red"}}
                     style={{color: "red", paddingTop: "180px"}}
@@ -245,7 +256,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="019"
+                    key="020"
                     dateText="December 2019"
                     dateInnerStyle={{background: "red"}}
                     style={{color: "red", paddingTop: "90px"}}
@@ -261,7 +272,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="020"
+                    key="021"
                     dateText="February 2020"
                     dateInnerStyle={{background: "red"}}
                     style={{color: "red", paddingTop: "180px"}}
@@ -288,7 +299,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="021"
+                    key="022"
                     dateText="May 2020"
                     dateInnerStyle={{background: "red"}}
                     style={{color: "red", paddingTop: "270px"}}
@@ -307,7 +318,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="022"
+                    key="023"
                     dateText="July 2020"
                     dateInnerStyle={{background: "red"}}
                     style={{color: "red", paddingTop: "180px"}}
@@ -318,7 +329,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="023"
+                    key="024"
                     dateText="September 2020"
                     dateInnerStyle={{background: "purple"}}
                     style={{color: "purple", paddingTop: "180px"}}
@@ -330,7 +341,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="024"
+                    key="025"
                     dateText="November 2020"
                     dateInnerStyle={{background: "purple"}}
                     style={{color: "purple", paddingTop: "180px"}}
@@ -353,7 +364,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="025"
+                    key="026"
                     dateText="January 2021"
                     dateInnerStyle={{background: "purple"}}
                     style={{color: "purple", paddingTop: "180px", opacity: "0.6"}}
@@ -364,7 +375,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="026"
+                    key="027"
                     dateText="February 2021"
                     dateInnerStyle={{background: "purple"}}
                     style={{color: "purple", paddingTop: "90px", opacity: "0.6"}}
@@ -380,7 +391,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="027"
+                    key="028"
                     dateText="March 2021"
                     dateInnerStyle={{background: "purple"}}
                     style={{color: "purple", paddingTop: "90px", opacity: "0.6"}}
@@ -391,7 +402,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="028"
+                    key="029"
                     dateText="April 2021"
                     dateInnerStyle={{background: "purple"}}
                     style={{color: "purple", paddingTop: "90px", opacity: "0.6"}}
@@ -402,7 +413,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="029"
+                    key="030"
                     dateText="May 2021"
                     dateInnerStyle={{background: "purple"}}
                     style={{color: "purple", paddingTop: "90px", opacity: "0.6"}}
@@ -425,7 +436,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="030"
+                    key="031"
                     dateText="June 2021"
                     dateInnerStyle={{background: "purple"}}
                     style={{color: "purple", paddingTop: "90px", opacity: "0.6"}}
@@ -440,7 +451,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="031"
+                    key="032"
                     dateText="July 2021"
                     dateInnerStyle={{background: "purple"}}
                     style={{color: "purple", paddingTop: "90px", opacity: "0.6"}}
@@ -451,7 +462,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="032"
+                    key="033"
                     dateText="September 2021"
                     dateInnerStyle={{background: "hotpink"}}
                     style={{color: "hotpink", paddingTop: "180px", opacity: "0.6"}}
@@ -459,7 +470,7 @@ class HighSchoolTimeline extends Component {
                     <h3>Beginning of Grade 12</h3>
                 </TimelineItem>
                 <TimelineItem
-                    key="033"
+                    key="034"
                     dateText="November 2021"
                     dateInnerStyle={{background: "hotpink"}}
                     style={{color: "hotpink", paddingTop: "180px", opacity: "0.6"}}
@@ -474,7 +485,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="034"
+                    key="035"
                     dateText="December 2021"
                     dateInnerStyle={{background: "hotpink"}}
                     style={{color: "hotpink", paddingTop: "90px", opacity: "0.6"}}
@@ -486,7 +497,7 @@ class HighSchoolTimeline extends Component {
                     </ul>
                 </TimelineItem>
                 <TimelineItem
-                    key="035"
+                    key="036"
                     dateText="January - April 2022"
                     dateInnerStyle={{background: "hotpink"}}
                     style={{color: "hotpink", paddingTop: "90px", opacity: "0.6"}}
@@ -508,7 +519,7 @@ class HighSchoolTimeline extends Component {
                     {/* <h3>Accepted into University of California Berkeley</h3> THIS WILL HAPPEN*/} 
                 </TimelineItem>
                 <TimelineItem
-                    key="036"
+                    key="037"
                     dateText="June 2022"
                     dateInnerStyle={{background: "hotpink"}}
                     style={{color: "hotpink", paddingTop: "450px", opacity: "0.6"}}
