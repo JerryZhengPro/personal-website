@@ -16,7 +16,8 @@ const Extracurriculars = () => {
     const descriptionA = 
         `I was part of Grouse Mountain's Leaders in Training program as an assistant ski instructor.
         For three consecutive winter seasons from December one year to April the next, 
-        I helped ski instructors teach lessons. I have over 240 hours of volunteer experience in this program.`; 
+        I helped ski instructors teach lessons and supervise children. I have over 240 hours of 
+        volunteer experience in this program.`; 
 
     const titleB = "Kumon"; 
     const descriptionB = 

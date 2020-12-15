@@ -51,7 +51,7 @@ class HighSchoolTimeline extends Component {
                     <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
                         <li>Part of the Grade 8 B Team</li>
                         <li style={{marginTop: "4px"}}>Scored 21/50</li>
-                        <li style={{marginTop: "4px"}}>Did not place in top 10, but was moved to A Team</li>
+                        <li style={{marginTop: "4px"}}>Did not place in top 10 but was moved to A Team</li>
                     </ul>
                 </TimelineItem>
                 <TimelineItem
@@ -241,7 +241,7 @@ class HighSchoolTimeline extends Component {
                     <h3>CIMC 3rd Attempt</h3>
                     <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
                         <li>Scored 48/60</li>
-                        <li>Achieved Group V Honour Roll</li>
+                        <li style={{marginTop: "4px"}}>Achieved Group V Honour Roll</li>
                     </ul>
                 </TimelineItem>
                 <TimelineItem
@@ -354,9 +354,20 @@ class HighSchoolTimeline extends Component {
                 </TimelineItem>
                 <TimelineItem
                     key="025"
+                    dateText="January 2021"
+                    dateInnerStyle={{background: "purple"}}
+                    style={{color: "purple", paddingTop: "180px", opacity: "0.6"}}
+                >
+                    <h3>MLH Explorer Fellowship</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Accepted to Major League Hacking's Explorer Fellowship Program</li>
+                    </ul>
+                </TimelineItem>
+                <TimelineItem
+                    key="026"
                     dateText="February 2021"
                     dateInnerStyle={{background: "purple"}}
-                    style={{color: "purple", paddingTop: "270px", opacity: "0.6"}}
+                    style={{color: "purple", paddingTop: "90px", opacity: "0.6"}}
                 >
                     <h3>Fermat Contest</h3>
                     <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
@@ -365,7 +376,144 @@ class HighSchoolTimeline extends Component {
                     <h3>AMC 12 1st Attempt</h3>
                     <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
                         <li>Scored at least 100/150</li>
+                        <li style={{marginTop: "4px"}}>Invited to AIME</li>
                     </ul>
+                </TimelineItem>
+                <TimelineItem
+                    key="027"
+                    dateText="March 2021"
+                    dateInnerStyle={{background: "purple"}}
+                    style={{color: "purple", paddingTop: "90px", opacity: "0.6"}}
+                >
+                    <h3>AIME 1st Attempt</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Scored at least 5/15</li>
+                    </ul>
+                </TimelineItem>
+                <TimelineItem
+                    key="028"
+                    dateText="April 2021"
+                    dateInnerStyle={{background: "purple"}}
+                    style={{color: "purple", paddingTop: "90px", opacity: "0.6"}}
+                >
+                    <h3>Euclid Contest 1st Attempt</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Scored at least 80/100</li>
+                    </ul>
+                </TimelineItem>
+                <TimelineItem
+                    key="029"
+                    dateText="May 2021"
+                    dateInnerStyle={{background: "purple"}}
+                    style={{color: "purple", paddingTop: "90px", opacity: "0.6"}}
+                >
+                    <h3>SAT</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Scored at least 1560/1600</li>
+                    </ul>
+                    <h3>AP Statistics Exam</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Scored 5/5</li>
+                    </ul>
+                    <h3>AP Physics C: Electricity and Magnetism Exam</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Scored 5/5</li>
+                    </ul>
+                    <h3>AP Physics C: Mechanics Exam</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Scored 5/5</li>
+                    </ul>
+                </TimelineItem>
+                <TimelineItem
+                    key="030"
+                    dateText="June 2021"
+                    dateInnerStyle={{background: "purple"}}
+                    style={{color: "purple", paddingTop: "90px", opacity: "0.6"}}
+                >
+                    <h3>Science Club Executive</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Passed interview and became a Science Club senior executive</li>
+                    </ul>
+                    <h3>Coding Club Executive</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Passed interview and became a Coding Club senior executive</li>
+                    </ul>
+                </TimelineItem>
+                <TimelineItem
+                    key="031"
+                    dateText="July 2021"
+                    dateInnerStyle={{background: "purple"}}
+                    style={{color: "purple", paddingTop: "90px", opacity: "0.6"}}
+                >
+                    <h3>BC Driving Road Test</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Passed and received Novice Licence</li>
+                    </ul>
+                </TimelineItem>
+                <TimelineItem
+                    key="032"
+                    dateText="September 2021"
+                    dateInnerStyle={{background: "hotpink"}}
+                    style={{color: "hotpink", paddingTop: "180px", opacity: "0.6"}}
+                >
+                    <h3>Beginning of Grade 12</h3>
+                </TimelineItem>
+                <TimelineItem
+                    key="033"
+                    dateText="November 2021"
+                    dateInnerStyle={{background: "hotpink"}}
+                    style={{color: "hotpink", paddingTop: "180px", opacity: "0.6"}}
+                >
+                    <h3>COMC 5th Attempt</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Scored at least 60/80</li>
+                    </ul>
+                    <h3>CSMC 2nd Attempt</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Scored at least 50/60</li>
+                    </ul>
+                </TimelineItem>
+                <TimelineItem
+                    key="034"
+                    dateText="December 2021"
+                    dateInnerStyle={{background: "hotpink"}}
+                    style={{color: "hotpink", paddingTop: "90px", opacity: "0.6"}}
+                >
+                    <h3>Grouse Mountain Part Time Ski Instructor</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Hired as a part time ski instructor at Grouse Mountain</li>
+                        <li style={{marginTop: "4px"}}>Worked for over 80 hours until April 2022</li>
+                    </ul>
+                </TimelineItem>
+                <TimelineItem
+                    key="035"
+                    dateText="January - April 2022"
+                    dateInnerStyle={{background: "hotpink"}}
+                    style={{color: "hotpink", paddingTop: "90px", opacity: "0.6"}}
+                >
+                    <h3>Accepted into University of Waterloo</h3>
+                    <h3 style={{marginTop: "16px"}}>AMC 12 2nd Attempt</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Scored at least 120/150</li>
+                        <li style={{marginTop: "4px"}}>Invited to AIME</li>
+                    </ul>
+                    <h3 style={{marginTop: "16px"}}>AIME 2nd Attempt</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Scored at least 8/15</li>
+                    </ul>
+                    <h3 style={{marginTop: "16px"}}>Euclid Contest 2nd Attempt</h3>
+                    <ul style={{listStylePosition: "inside", paddingLeft: "0"}}>
+                        <li>Scored at least 90/100</li>
+                    </ul>
+                    {/* <h3>Accepted into University of California Berkeley</h3> THIS WILL HAPPEN*/} 
+                </TimelineItem>
+                <TimelineItem
+                    key="036"
+                    dateText="June 2022"
+                    dateInnerStyle={{background: "hotpink"}}
+                    style={{color: "hotpink", paddingTop: "450px", opacity: "0.6"}}
+                >
+                    <h3>High School Graduation</h3>
                 </TimelineItem>
             </Timeline>
         )
